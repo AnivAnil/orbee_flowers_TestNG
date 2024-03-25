@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.orbee.OrbeeflowersTests">
+        <methods>
+          <include name="remove_fresh_miss_product_from_add_card_"/>
+          <include name="add_cart_plants_indoor_common_aglaonema"/>
+          <include name="init"/>
+          <include name="add_card_flowers_anthurium"/>
+          <include name="logout_screen"/>
+          <include name="orbee_flowers_home_screen"/>
+          <include name="add_fresh_miss_to_add_card"/>
+          <include name="search_fresh_miss_product"/>
+          <include name="user_login"/>
+          <include name="afterTests"/>
+        </methods>
+      </class> <!-- com.orbee.OrbeeflowersTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
